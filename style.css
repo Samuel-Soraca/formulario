@@ -1,0 +1,104 @@
+body {
+    background-color: #ffe6e6; 
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+    background-image: url("https://wallpapers.com/images/hd/1366x768-minimalist-idorj5cbxlbtw1wb.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.form-container {
+    background-color: #ff9f9f; 
+    border: 5px dashed #ff173a; 
+    box-shadow: 0 0 15px #ff8f8f;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    background: linear-gradient(to right, hsl(0, 100%, 77%), #ff5858);
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: cursive;
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+    font-family: cursive;
+}
+
+table {
+    width: 100%;
+    color: #ffffff;
+    margin: auto;
+    }
+
+td {
+    text-align: center;
+    padding: 10px;
+    color: #000000;
+}
+
+input, select {
+    width: 80%;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #2e0000;
+    border-radius: 10px;
+    background-color: #fff0f5; 
+    font-family: cursive;
+    text-align: center;
+    font-size: 15px;
+}
+
+.button {
+    background-color: #ffb6c1; 
+    border: 10px;
+    padding: 10px;
+    width: 80%;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: cursive;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #ffe6e6; 
+    transform: scale(1.05);
+}
+
+.side-img {
+    width: 230px;
+    height: 230px;
+    border-radius: 200px;
+    box-shadow: 0 0 15px #ff7b00;
+}
+
+.cide-img {
+    width: 230px;
+    height: 230px;
+    border-radius: 200px;
+    box-shadow: 0 0 15px #0400df;
+}
+
+input:focus{
+    background-color: #ffa3a3;
+}
+
+::placeholder{
+    font-size: 20px;
+    color: #000000;
+}
